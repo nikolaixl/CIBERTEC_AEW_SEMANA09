@@ -1,0 +1,25 @@
+body{
+    background-color: blue;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+h1{
+    color: red;
+    padding: 20px;
+}
+.contenedor{
+background-color:white;
+margin: auto;
+width: 80%;
+padding: 30px;
+}
+img{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    float: left;
+}
+p{
+    text-align: justify;
+}

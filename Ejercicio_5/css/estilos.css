@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    background-color: brown;
+}
+
+#contenedor {
+    width: 95%;
+    margin: auto;
+    background-color: white;
+}
+
+.logo {
+    margin: 10px;
+    float: right;
+}
+
+.banner {
+    box-sizing: content-box;
+    width: 100%;
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    box-sizing: content-box;
+    width: 20%;
+}
+
+aside a {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    display: block;
+}
+
+section {
+    box-sizing: content-box;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+article {
+    margin: 10px;
+}
+
+article img {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    box-sizing: content-box;
+    width: 40%;
+    float: left;
+}
+
+article h1 {
+    margin-bottom: 10px;
+    font-size: 20pt;
+    color: darkblue;
+}
+
+article p {
+    text-align: justify;
+}
+
+footer {
+    background-color: gray;
+    display: flex;
+}
+
+footer p {
+    box-sizing: content-box;
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: yellow;
+}
+
+footer div {
+    margin: 10px;
+    display: flex;
+}
+
+footer div img {
+    padding: 5px;
+}

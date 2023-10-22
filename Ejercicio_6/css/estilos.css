@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    border: 0;
+}
+body{
+    background-color: orange;
+}
+#contenedor{
+    width: 95%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    background-color: beige;
+}
+header h1{
+    padding: 20px;
+    text-align: center;
+    color: chocolate;
+}
+header img{
+    box-sizing: content-box;
+    width: 100%;
+    vertical-align: bottom;
+}
+nav{
+    background-color: yellow;
+}
+nav a{
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: red;
+}
+main{
+    display: flex;
+}
+aside{
+    box-sizing: content-box;
+    width: 25%;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+aside h3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+aside a{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: block;
+    color: firebrick;
+}
+aside img{
+    box-sizing: content-box;
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+section{
+    box-sizing: content-box;
+    width: 50%;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: white;
+}
+section figure{
+    box-sizing: content-box;
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid blue;
+}
+section figure img{
+    box-sizing: content-box;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+section figure figcaption{
+    margin: 10px;
+    text-align: center;
+}
+footer{
+    padding: 10px;
+    text-align: center;
+    background-color: green;
+}
+footer p{
+    margin-bottom: 10px;
+    color: white;
+}
